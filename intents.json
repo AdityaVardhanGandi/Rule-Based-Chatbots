@@ -1,0 +1,119 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Howdy", "What's up", "Good morning", "Good evening"],
+      "responses": ["Hello!", "Hi there!", "Hey!", "Hi! How can I help you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Catch you later", "Talk to you later"],
+      "responses": ["Goodbye!", "See you soon!", "Have a great day!", "Bye! Take care."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Much appreciated", "Thanks a lot"],
+      "responses": ["You're welcome!", "Glad I could help!", "Any time!", "No problem!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "Who are you?", "What's your name?"],
+      "responses": ["I'm your personal chatbot assistant.", "You can call me Chatty."]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who made you?", "Who created you?", "Your developer?"],
+      "responses": ["I was created by Aditya Vardhan.", "Aditya Vardhan developed me using Python and machine learning."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["I need help", "Can you help me?", "I need assistance", "Support me"],
+      "responses": ["I'm here to help. What do you need?", "Sure, tell me how I can assist."]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your hours?", "When are you open?", "Opening hours?"],
+      "responses": ["We are open 9am to 5pm every day.", "Business hours are 9 to 5 daily."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather?", "Is it raining?", "Will it rain today?", "Sunny outside?"],
+      "responses": ["Check a weather app for the latest updates.", "Try asking your phone’s assistant."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Say something funny"],
+      "responses": ["Why don't scientists trust atoms? Because they make up everything!", "I'm reading a book on anti-gravity. It's impossible to put down!"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "When were you made?", "What is your age?"],
+      "responses": ["I'm quite young in code years!", "I was born in a Python file not long ago."]
+    },
+    {
+      "tag": "language",
+      "patterns": ["What language do you speak?", "Which programming language are you made of?"],
+      "responses": ["I speak Python fluently!", "Python is my mother tongue."]
+    },
+    {
+      "tag": "feeling",
+      "patterns": ["How are you?", "Are you okay?", "How do you feel?"],
+      "responses": ["I'm just a bunch of code, but I'm functioning perfectly!", "I feel 100% operational!"]
+    },
+    {
+      "tag": "hobby",
+      "patterns": ["What do you do for fun?", "Your hobbies?", "Do you have any hobbies?"],
+      "responses": ["I like chatting with you!", "I enjoy solving problems and giving answers."]
+    },
+    {
+      "tag": "emotion_positive",
+      "patterns": ["I'm happy", "Feeling great", "I'm doing well", "All good!"],
+      "responses": ["That's great to hear!", "Awesome! Keep smiling!", "I'm glad you're doing well."]
+    },
+    {
+      "tag": "emotion_negative",
+      "patterns": ["I'm sad", "Feeling down", "Not good", "I'm upset"],
+      "responses": ["I'm sorry to hear that. I'm here if you want to talk.", "Things will get better, stay strong!"]
+    },
+    {
+      "tag": "food",
+      "patterns": ["What's your favorite food?", "Do you eat?", "Hungry?"],
+      "responses": ["I feed on Python code.", "No need for food when you're digital!"]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["Do you play sports?", "Favorite sport?", "Are you into sports?"],
+      "responses": ["I like data sports — like analytics and predictions!", "I'm a fan of neural nets, not football nets!"]
+    },
+    {
+      "tag": "ai",
+      "patterns": ["What is AI?", "Define artificial intelligence", "Tell me about AI"],
+      "responses": ["Artificial Intelligence is the simulation of human intelligence in machines.", "AI allows machines to learn, reason, and make decisions."]
+    },
+    {
+      "tag": "ml",
+      "patterns": ["What is machine learning?", "Tell me about ML", "Explain machine learning"],
+      "responses": ["Machine learning is a subset of AI that allows systems to learn from data.", "ML teaches computers to improve from experience without being explicitly programmed."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Current time?", "Can you tell me the time?"],
+      "responses": ["I don’t have a clock, but your device does!", "Check your system tray or phone for the exact time."]
+    },
+    {
+      "tag": "date",
+      "patterns": ["What's the date today?", "Today’s date?", "Which day is it?"],
+      "responses": ["Check your calendar app or system date!", "It's always a good day to learn something new."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where am I?", "What's my location?", "Can you track me?"],
+      "responses": ["Sorry, I don’t have access to your location.", "I respect your privacy — no tracking here!"]
+    },
+    {
+      "tag": "future",
+      "patterns": ["Tell me about the future", "Can you predict the future?", "What's going to happen?"],
+      "responses": ["I'm not a fortune teller, but I know trends!", "With enough data, anything is predictable... maybe."]
+    }
+  ]
+}
